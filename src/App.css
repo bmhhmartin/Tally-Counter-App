@@ -1,0 +1,48 @@
+.tally__body {
+    background: url(../src/images/tally.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 325px;
+    width: auto;
+    position: relative;
+}
+
+.tally__body .tally__count {
+    background: #91929E;
+    font-size: 44px;
+    position: absolute;
+    top: 68px;
+    left: 48px;
+    width: 143px;
+    text-align: right;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+.tally__body .count__button {
+    max-width: 100px;
+    position: absolute;
+    top: 180px;
+    left: 74px;
+    cursor: pointer;
+}
+
+.tally__body .count__button img:hover {
+    transform: scale(.9);
+}
+
+.tally__body .count__reset {
+    max-width: 40px;
+    position: absolute;
+    top: 174px;
+    left: 174px;
+    cursor: pointer;
+}
+
+.tally__body .count__reset img {
+    width: 100%;
+}
+
+.tally__body .count__reset img:hover {
+    transform: scale(.9);
+}
